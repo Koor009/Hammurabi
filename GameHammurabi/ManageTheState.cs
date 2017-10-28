@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hammurab
+namespace GameHammurabi
 {
     class ManageTheState
     {
+
         public int People { get; set; }
         public int Land { get; set; }
         public int Corn { get; set; }
