@@ -20,6 +20,7 @@ namespace Hammurab
             this.Corn = Corn;
             this.Land = Land;
             this.People = People;
+
         }
     }
 }
