@@ -43,8 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BayingOrSellingLand.cs" />
+    <Compile Include="FoodForPeople.cs" />
+    <Compile Include="GrowingFood.cs" />
+    <Compile Include="ManageTheState.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rats.cs" />
+    <Compile Include="Sell.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

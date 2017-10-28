@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameHammurabi", "GameHammurabi\GameHammurabi.csproj", "{8A8393D1-517E-4C87-BE4A-1E86E62CFDED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hammurab", "..\Hammurab\Hammurab\Hammurab.csproj", "{129DB2C9-92B1-44DE-93AC-779F10E2E24A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8A8393D1-517E-4C87-BE4A-1E86E62CFDED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A8393D1-517E-4C87-BE4A-1E86E62CFDED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A8393D1-517E-4C87-BE4A-1E86E62CFDED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129DB2C9-92B1-44DE-93AC-779F10E2E24A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129DB2C9-92B1-44DE-93AC-779F10E2E24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129DB2C9-92B1-44DE-93AC-779F10E2E24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129DB2C9-92B1-44DE-93AC-779F10E2E24A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
