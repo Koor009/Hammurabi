@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hammurab
+namespace GameHammurabi
 {
     class Rats
     {
+
         Random rand = new Random();
         public ManageTheState manage;
         public Rats(ManageTheState manage)

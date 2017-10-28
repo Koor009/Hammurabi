@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hammurab
+namespace GameHammurabi
 {
     class GrowingFood
     {
+
         public ManageTheState manage;
 
         public GrowingFood(ManageTheState manage)

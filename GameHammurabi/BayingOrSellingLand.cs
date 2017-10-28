@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hammurab
+namespace GameHammurabi
 {
     class BayingOrSellingLand
     {
+
         public ManageTheState manage;
         public Sell sell;
         public BayingOrSellingLand(ManageTheState manage, Sell sell)

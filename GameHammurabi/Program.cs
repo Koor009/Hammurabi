@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hammurab
+namespace GameHammurabi
 {
     class Program
     {
         static void Main(string[] args)
         {
+
             int Year = 0;
 
             ManageTheState manage = new ManageTheState(3000,1000,100);
@@ -46,6 +47,7 @@ namespace Hammurab
                     Console.WriteLine("You were overthrown");
                     break;
                 }
+
 
             }
         }
