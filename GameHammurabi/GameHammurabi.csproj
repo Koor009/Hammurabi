@@ -43,10 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BayingOrSellingLand.cs" />
-    <Compile Include="FoodForPeople.cs" />
-    <Compile Include="GrowingFood.cs" />
-    <Compile Include="ManageTheState.cs" />
+    <Compile Include="Area.cs" />
+    <Compile Include="Conclusion.cs" />
+    <Compile Include="Mortality.cs" />
+    <Compile Include="Trade.cs" />
+    <Compile Include="Ate.cs" />
+    <Compile Include="Plant.cs" />
+    <Compile Include="Manage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rats.cs" />

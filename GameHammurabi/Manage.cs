@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameHammurabi
 {
-    class ManageTheState
+    class Manage
     {
 
         public int People { get; set; }
@@ -16,7 +16,7 @@ namespace GameHammurabi
         /// In the ManageTheState constructor, settilng first value parameters
         /// amount corn, land area, people
         /// </summary>
-        public ManageTheState(int Corn, int Land, int People)
+        public Manage(int Corn, int Land, int People)
         {
             this.Corn = Corn;
             this.Land = Land;

@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace GameHammurabi
 {
-    class GrowingFood
+    class Plant
     {
 
-        public ManageTheState manage;
+        public Manage manage;
 
-        public GrowingFood(ManageTheState manage)
+        public Plant(Manage manage)
         {
             this.manage = manage;
         }

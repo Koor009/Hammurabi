@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace GameHammurabi
 {
-    class FoodForPeople
+    class Ate
     {
-
+        public int Died{ get; set; }
         Random rand = new Random();
-        public ManageTheState manage;
-        public FoodForPeople(ManageTheState manage)
+        public Manage manage;
+        public Ate(Manage manage)
         {
             this.manage = manage;
         }
@@ -32,6 +32,7 @@ namespace GameHammurabi
 
                     int man = manage.People;
                     man -= corn;
+                    Died = man;
                     Console.WriteLine($"Died people from hunger: {man}");
                     manage.People -= man;
                     Console.WriteLine($"Came people {Come}");
