@@ -8,8 +8,8 @@ namespace GameHammurabi
 {
     class Area
     {
-        public float Ration{ get; set; }
-        public Manage manage;
+        internal float Ration{ get; set; }
+        internal Manage manage;
         public Area(Manage manage)
         {
             this.manage = manage;

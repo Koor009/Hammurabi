@@ -9,7 +9,7 @@ namespace GameHammurabi
     class Sell
     {
         Random rand = new Random();
-        public int Price { get; set; }
+        internal int Price { get; set; }
         public void Display()
         {
             Price = rand.Next(17, 27);

@@ -9,8 +9,8 @@ namespace GameHammurabi
     class Trade
     {
 
-        public Manage manage;
-        public Sell sell;
+        Manage manage;
+        Sell sell;
         public Trade(Manage manage, Sell sell)
         {
             this.manage = manage;

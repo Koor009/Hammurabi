@@ -8,7 +8,7 @@ namespace GameHammurabi
 {
     class Conclusion
     {
-        public Area area;
+        Area area;
         public Conclusion(Area area)
         {
             this.area = area;

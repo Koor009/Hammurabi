@@ -10,7 +10,7 @@ namespace GameHammurabi
     {
 
         Random rand = new Random();
-        public Manage manage;
+        Manage manage;
         public Rats(Manage manage)
         {
             this.manage = manage;

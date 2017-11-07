@@ -9,9 +9,9 @@ namespace GameHammurabi
     class Manage
     {
 
-        public int People { get; set; }
-        public int Land { get; set; }
-        public int Corn { get; set; }
+        internal int People { get; set; }
+        internal int Land { get; set; }
+        internal int Corn { get; set; }
         /// <summary>
         /// In the ManageTheState constructor, settilng first value parameters
         /// amount corn, land area, people

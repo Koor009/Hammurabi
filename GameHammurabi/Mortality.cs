@@ -8,7 +8,7 @@ namespace GameHammurabi
 {
     class Mortality
     {
-        public Ate mans;
+        Ate mans;
         public Mortality(Ate mans)
         {
             this.mans = mans;

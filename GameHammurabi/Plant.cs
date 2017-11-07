@@ -9,7 +9,7 @@ namespace GameHammurabi
     class Plant
     {
 
-        public Manage manage;
+        Manage manage;
 
         public Plant(Manage manage)
         {

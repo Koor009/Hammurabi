@@ -8,9 +8,9 @@ namespace GameHammurabi
 {
     class Ate
     {
-        public int Died{ get; set; }
+        internal int Died{ get; set; }
         Random rand = new Random();
-        public Manage manage;
+        private Manage manage;
         public Ate(Manage manage)
         {
             this.manage = manage;
